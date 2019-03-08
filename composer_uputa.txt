@@ -1,0 +1,4 @@
+composer require diversen/redbean-composer
+composer require gabordemooij/redbean
+
+include_once "vendor/diversen/redbean-composer/rb.php";
