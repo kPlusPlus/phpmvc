@@ -7,7 +7,7 @@ class DB {
   function __construct(){
     try {
       $this->pdo = new PDO(
-        "mysql:host=159.69.113.252;dbname=kapluspl_crc;charset=utf8", 
+        "mysql:host=192.168.1.111;dbname=kapluspl_crc;charset=utf8", 
         "maniac", "F3VA55TpNfsA", [
           PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
           PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,

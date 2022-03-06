@@ -6,7 +6,7 @@
 
 
 /* connect to the db */
-$connection = mysqli_connect('159.69.113.252','maniac','F3VA55TpNfsA','kapluspl_crc');
+$connection = mysqli_connect('192.168.1.111','maniac','F3VA55TpNfsA','kapluspl_miau');
 mysqli_select_db('my_db',$connection);
 if (mysqli_connect_errno())
 {
